@@ -213,7 +213,7 @@ def simple_risk_score(clause_text):
 
 
 def main():
-    st.set_page_config("Multi PDF Chatbot", page_icon = ":scroll:", layout="wide")
+    st.set_page_config("Multi-PDF Chat Agent", page_icon = ":scroll:", layout="wide")
     apply_theme()
     hero("Multi-PDF's 📚 - Chat Agent 🤖", "Discover and Chat & compare insights across your PDFs")
 
@@ -829,3 +829,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
